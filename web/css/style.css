@@ -1,0 +1,158 @@
+/*ESTRUTURA*/
+html, body{
+    overflow-x: hidden;
+}
+
+.caixa{
+    padding: 60px 0;
+    border-bottom: 1px solid #b6b6ba;
+}
+
+header{
+    background: url(../img/masthead/img-masterheader.jpg) #2a2e48 no-repeat;
+    color: white;
+    height: 100vh;
+}
+
+.navbar{
+    padding: 25px 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 30px;
+}
+
+#works .col-md-3{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.content-work{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    justify-content: center;
+}
+
+.bg-testimonials{
+    background: #53354a;
+}
+
+#pre-footer{
+    padding: 50px 0;
+    background: #3a3e64;
+    color: white;
+}
+
+#master-footer{
+    padding: 20px 0;
+    background: #313454;
+    color: #818297;
+}
+
+/*BOTÕES*/
+.btn-custom{
+    border: none;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+
+.btn-red{
+    color: white;
+    background: #e84545;
+}
+
+/*LISTAS*/
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+ul li{
+    display: inline;
+}
+
+/*TIPOGRAFIA*/
+h1, h2, h4, h5, h6, .btn-red{
+    text-transform: uppercase;
+}
+
+#banner h1{
+    font-size: 4em;
+    font-weight: 490;
+    margin-bottom: 20px;
+}
+
+#banner p{
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+#features h4{
+    font-size: 1em;
+}
+
+#features p{
+    color: #858a8f;
+}
+
+#works h4{
+    font-size: 1em;
+    text-align: center;
+    color: white;
+}   
+
+#works p{
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+}
+
+#team h3{
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+#team h5{
+    color: #e84545;
+    font-size: 0.9em;
+}
+
+#testimonials h3{
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#testimonials p{
+    color: white;
+    font-size: 0.8em;
+    font-weight: 630;
+    text-transform: uppercase;
+}
+
+#download h2{
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+#download p{
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 750;
+}
+
+#pre-footer p{
+    color: #818297;
+}
+
+#master-footer p{
+    margin-bottom: 0;
+}
+
+.btn-red{
+    font-weight: 500;
+    font-size: 0.8em;
+}
