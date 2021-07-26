@@ -58,6 +58,11 @@ header{
     cursor: pointer;
 }
 
+.btn-custom:focus{
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
 .btn-red{
     color: white;
     background: #e84545;
